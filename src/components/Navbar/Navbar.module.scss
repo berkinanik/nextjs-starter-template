@@ -1,0 +1,22 @@
+@import 'styles/variables.scss';
+@import 'styles/placeholders.scss';
+
+.container {
+  position: sticky;
+  top: 0;
+  background: $colorWhite;
+  box-shadow: 0px 10px 10px 0px rgba($colorBlack, 0.5);
+}
+
+.wrapper {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 32px;
+  width: 144px;
+}

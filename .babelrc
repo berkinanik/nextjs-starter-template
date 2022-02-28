@@ -1,0 +1,22 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react", "next/babel"],
+  "plugins": [
+    "@babel/plugin-transform-runtime",
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "components": "./src/components",
+          "constants": "./src/constants",
+          "icons": "./public/icons",
+          "images": "./public/images",
+          "layouts": "./src/components/_layouts",
+          "lib": "./src/lib",
+          "styles": "./src/styles",
+          "utils": "./src/utils"
+        }
+      }
+    ]
+  ]
+}

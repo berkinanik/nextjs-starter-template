@@ -1,0 +1,21 @@
+@import 'styles/variables.scss';
+@import 'styles/placeholders.scss';
+
+.container {
+  width: 1440px;
+  max-width: 100%;
+  padding: 0;
+  margin: 0 auto;
+
+  @include phone {
+    width: 100%;
+  }
+
+  @include tablet {
+    width: 100%;
+  }
+
+  @include tablet-landscape {
+    width: 100%;
+  }
+}

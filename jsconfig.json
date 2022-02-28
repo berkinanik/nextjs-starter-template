@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "components/*": ["components/*"],
+      "constants/*": ["constants/*"],
+      "icons/*": ["../public/icons/*"],
+      "images/*": ["../public/images/*"],
+      "layouts/*": ["src/onents/_layouts/*"],
+      "lib/*": ["lib/*"],
+      "styles/*": ["styles/*"],
+      "utils": ["utils"]
+    }
+  },
+  "exclude": [
+    "dist",
+    "node_modules",
+    "**/node_modules",
+    "build",
+    ".vscode",
+    ".next",
+    "coverage",
+    ".npm",
+    ".yarn"
+  ],
+  "typeAcquisition": {
+    "enable": true,
+    "include": ["react", "react-dom"]
+  }
+}
