@@ -1,6 +1,6 @@
 # nextjs-starter-template
 
-This is a simple customized [Next.js](https://nextjs.org/) project example with my preferred setup.
+This is a simple [Next.js](https://nextjs.org/) project template with my preferred setup.
 
 ## Specifications
 
