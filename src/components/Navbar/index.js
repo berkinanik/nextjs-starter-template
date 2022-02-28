@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className={ styles.logo }>
         <Image src="/images/vercel-logo.svg" alt="Vercel Logo" width={ 144 } height={ 32 } quality={ 100 }/>
       </div>
-      <a href="http://github.com/berkinanik/" target="_blank" rel="noreferrer">GitHub Repo</a>
+      <a href="http://github.com/berkinanik/nextjs-starter-template" target="_blank" rel="noreferrer">GitHub Repo</a>
     </Wrapper>
   </nav>;
 };
