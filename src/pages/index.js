@@ -16,6 +16,14 @@ const Home = () => {
       </h1>
 
       <p className={ styles.description }>
+        This is a custom starter template using{ ' ' }
+        <code className={ styles.code }>js</code>{ ' , ' }
+        <code className={ styles.code }>scss</code>{ ' , ' }
+        <code className={ styles.code }>eslint</code>{ ' , ' }
+        <code className={ styles.code }>babel</code>
+      </p>
+
+      <p className={ styles.description }>
         Get started by editing{ ' ' }
         <code className={ styles.code }>pages/index.js</code>
       </p>
