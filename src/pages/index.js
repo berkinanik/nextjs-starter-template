@@ -15,17 +15,23 @@ const Home = () => {
         Welcome to <a href="https://nextjs.org" target="_blank" rel="noreferrer">Next.js!</a>
       </h1>
 
+      <a href="https://github.com/berkinanik/" className={ styles.link } target="_blank" rel="noreferrer">
+        github.com/berkinanik
+      </a>
+
       <p className={ styles.description }>
         This is a custom starter template using{ ' ' }
-        <code className={ styles.code }>js</code>{ ' , ' }
-        <code className={ styles.code }>scss</code>{ ' , ' }
-        <code className={ styles.code }>eslint</code>{ ' , ' }
-        <code className={ styles.code }>babel</code>
+        <code className={ styles.code }>js</code>with<code className={ styles.code }>npm</code><br/>
+        <code className={ styles.code }>es6+ syntax</code>, <code className={ styles.code }>functional compenents</code>and<code className={ styles.code }>sass (scss)</code><br/>
+        custom<code className={ styles.code }>eslint</code>with{ ' ' }
+        <code className={ styles.code }>next</code> / <code className={ styles.code }>react</code> / <code className={ styles.code }>hooks</code> plugins and more<br/>
+        custom<code className={ styles.code }>babel</code>and<code className={ styles.code }>jsconfig</code> for path aliasing<br/>
+        basic layout with <code className={ styles.code }>Navbar</code> <code className={ styles.code }>Wrapper</code> <code className={ styles.code }>Footer</code> and <code className={ styles.code }>sass mixins</code>
       </p>
 
       <p className={ styles.description }>
-        Get started by editing{ ' ' }
-        <code className={ styles.code }>pages/index.js</code>
+        Get started by clicking{ ' ' }
+        <code className={ styles.code }>Code</code> or <code className={ styles.code }>Use this template</code> on GitHub
       </p>
 
       <div className={ styles.grid }>
